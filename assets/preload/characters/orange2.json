@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				158,
+				-106
+			],
+			"anim": "singUP",
+			"fps": 21,
+			"name": "UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				198,
+				-109
+			],
+			"indices": [],
+			"fps": 13,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				262,
+				-60
+			],
+			"indices": [],
+			"fps": 40,
+			"anim": "ha1",
+			"loop": false,
+			"name": "ha1"
+		},
+		{
+			"offsets": [
+				169,
+				-77
+			],
+			"indices": [],
+			"fps": 40,
+			"anim": "ha2",
+			"loop": false,
+			"name": "ha2"
+		},
+		{
+			"offsets": [
+				157,
+				-123
+			],
+			"indices": [],
+			"fps": 28,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "RIGHT"
+		},
+		{
+			"offsets": [
+				166,
+				-122
+			],
+			"indices": [],
+			"fps": 21,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				148,
+				-116
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "DOWN"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/orange2",
+	"position": [
+		-50,
+		50
+	],
+	"healthicon": "orag",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		140,
+		0
+	],
+	"camera_position": [
+		-160,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
