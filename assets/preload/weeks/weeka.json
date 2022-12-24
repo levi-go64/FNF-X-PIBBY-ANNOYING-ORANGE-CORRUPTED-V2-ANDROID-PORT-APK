@@ -1,0 +1,50 @@
+{
+	"storyName": "oo5r53442a526n345g43",
+	"difficulties": "reallyhard, hard",
+	"hideFreeplay": false,
+	"weekBackground": "kichen",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"sliced",
+			"orag",
+			[
+				255,
+				193,
+				0
+			]
+		],
+		[
+			"prepeared",
+			"pear",
+			[
+				0,
+				113,
+				53
+			]
+		],
+		[
+			"AnnoyingAnnoying",
+			"onorm",
+			[
+				255,
+				213,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "weeka"
+}
