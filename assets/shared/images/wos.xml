@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wos.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sas0000" x="0" y="0" width="1996" height="1294" frameX="0" frameY="-123" frameWidth="1996" frameHeight="1455"/>
+	<SubTexture name="sas0001" x="1996" y="0" width="1966" height="1455" frameX="-30" frameY="0" frameWidth="1996" frameHeight="1455"/>
+	<SubTexture name="sas0002" x="0" y="1455" width="1996" height="1268" frameX="0" frameY="-119" frameWidth="1996" frameHeight="1455"/>
+	<SubTexture name="sas0003" x="1996" y="1455" width="1996" height="1337" frameX="0" frameY="-69" frameWidth="1996" frameHeight="1455"/>
+</TextureAtlas>

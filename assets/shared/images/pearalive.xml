@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pearalive.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="peara0000" x="0" y="0" width="428" height="514"/>
+	<SubTexture name="peara0001" x="0" y="0" width="428" height="514"/>
+	<SubTexture name="peara0002" x="428" y="0" width="428" height="514"/>
+	<SubTexture name="peara0003" x="428" y="0" width="428" height="514"/>
+	<SubTexture name="peara0004" x="856" y="0" width="428" height="514"/>
+	<SubTexture name="peara0005" x="856" y="0" width="428" height="514"/>
+	<SubTexture name="peara0006" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0007" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0008" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0009" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0010" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0011" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0012" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0013" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0014" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0015" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0016" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0017" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0018" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0019" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0020" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0021" x="1284" y="0" width="428" height="514"/>
+	<SubTexture name="peara0022" x="1284" y="0" width="428" height="514"/>
+</TextureAtlas>

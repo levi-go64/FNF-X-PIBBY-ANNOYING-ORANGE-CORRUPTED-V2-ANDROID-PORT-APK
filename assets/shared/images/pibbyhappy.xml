@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pibbyhappy.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pibby10000" x="0" y="0" width="405" height="490"/>
+	<SubTexture name="pibby10001" x="405" y="0" width="405" height="490"/>
+	<SubTexture name="pibby10002" x="405" y="0" width="405" height="490"/>
+	<SubTexture name="pibby10003" x="0" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10004" x="0" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10005" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10006" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10007" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10008" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10009" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10010" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10011" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10012" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10013" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10014" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10015" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10016" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10017" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10018" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10019" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10020" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10021" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10022" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10023" x="405" y="490" width="405" height="490"/>
+	<SubTexture name="pibby10024" x="405" y="490" width="405" height="490"/>
+</TextureAtlas>

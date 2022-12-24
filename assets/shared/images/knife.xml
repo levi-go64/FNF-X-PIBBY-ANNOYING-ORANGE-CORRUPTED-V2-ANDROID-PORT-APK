@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="knife.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nife0000" x="0" y="0" width="1680" height="1988"/>
+	<SubTexture name="nife0001" x="1680" y="0" width="1680" height="1988"/>
+	<SubTexture name="nife0002" x="3360" y="0" width="1680" height="1988"/>
+	<SubTexture name="nife0003" x="5040" y="0" width="1680" height="1988"/>
+	<SubTexture name="nife0004" x="0" y="1988" width="1680" height="1988"/>
+	<SubTexture name="nife0005" x="1680" y="1988" width="1680" height="1988"/>
+	<SubTexture name="nife0006" x="3360" y="1988" width="1680" height="1988"/>
+	<SubTexture name="nife0007" x="5040" y="1988" width="1680" height="1988"/>
+	<SubTexture name="nife0008" x="0" y="3976" width="1680" height="1988"/>
+	<SubTexture name="nife0009" x="1680" y="3976" width="1680" height="1988"/>
+	<SubTexture name="nife0010" x="3360" y="3976" width="1680" height="1988"/>
+</TextureAtlas>
