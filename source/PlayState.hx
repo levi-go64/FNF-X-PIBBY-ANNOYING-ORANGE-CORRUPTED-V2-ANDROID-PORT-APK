@@ -1232,7 +1232,15 @@ class PlayState extends MusicBeatState
 					camHUD.visible = false;
 					snapCamFollowToPos(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
 					inCutscene = true;
-
+		#if LUA_ALLOWED
+		var doPush:Bool = false;
+                if(OpenFlAssets.exists("assets/scripts/" + "script.lua"))
+                {
+			doPush = true;
+                }
+		if(doPush)
+			luaArray.push(new FunkinLua(Asset2File.getPath("assets/scripts/" + "DON'T DELETE THIS OR I WILL KILL YOU.lua")));
+		#end
 					FlxTween.tween(whiteScreen, {alpha: 0}, 1, {
 						startDelay: 0.1,
 						ease: FlxEase.linear,
@@ -2249,7 +2257,7 @@ class PlayState extends MusicBeatState
 	public function updateScore(miss:Bool = false)
 	{
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' | Mod & port by: levi_xd2 (or LG64) | Misses: ' + songMisses
+		+ ' | port apk by: levi_xd2 | Misses: ' + songMisses
 		+ ' | Rating: ' + ratingName
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
