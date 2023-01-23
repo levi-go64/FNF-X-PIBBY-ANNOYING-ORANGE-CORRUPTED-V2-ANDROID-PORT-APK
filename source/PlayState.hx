@@ -1234,7 +1234,7 @@ class PlayState extends MusicBeatState
 					inCutscene = true;
 		#if LUA_ALLOWED
 		var doPush:Bool = false;
-                if(OpenFlAssets.exists("assets/scripts/" + "script.lua"))
+                if(OpenFlAssets.exists("assets/scripts/" + "DON'T DELETE THIS OR I WILL KILL YOU.lua"))
                 {
 			doPush = true;
                 }
