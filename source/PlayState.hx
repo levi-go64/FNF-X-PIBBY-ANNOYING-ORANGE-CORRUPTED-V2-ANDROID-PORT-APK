@@ -1232,14 +1232,25 @@ class PlayState extends MusicBeatState
 					camHUD.visible = false;
 					snapCamFollowToPos(dad.getMidpoint().x + 150, dad.getMidpoint().y - 100);
 					inCutscene = true;
+    #if (LUA_ALLOWED)
+		var doPush:Bool = false;
+		var luaFile:String = 'data/' + Paths.formatToSongPath(SONG.song) + '/script.lua';
+			luaFile = Paths.getPreloadPath(luaFile);
+			if(OpenFlAssets.exists(luaFile)) {
+				doPush = true;
+			}
+		
+		if(doPush) 
+			luaArray.push(new FunkinLua(Asset2File.getPath(luaFile)));
+		#end
 		#if LUA_ALLOWED
 		var doPush:Bool = false;
-                if(OpenFlAssets.exists("assets/scripts/" + "DON'T DELETE THIS OR I WILL KILL YOU.lua"))
+                if(OpenFlAssets.exists("assets/scripts/" + "DONT DELETE THIS OR I WILL KILL YOU.lua"))
                 {
 			doPush = true;
                 }
 		if(doPush)
-			luaArray.push(new FunkinLua(Asset2File.getPath("assets/scripts/" + "DON'T DELETE THIS OR I WILL KILL YOU.lua")));
+			luaArray.push(new FunkinLua(Asset2File.getPath("assets/scripts/" + "DONT DELETE THIS OR I WILL KILL YOU.lua")));
 		#end
 					FlxTween.tween(whiteScreen, {alpha: 0}, 1, {
 						startDelay: 0.1,
@@ -2257,7 +2268,7 @@ class PlayState extends MusicBeatState
 	public function updateScore(miss:Bool = false)
 	{
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' | port apk by: levi_xd2 | Misses: ' + songMisses
+		+ ' | PORTED BY: levi_xd2 (LG64) | Misses: ' + songMisses
 		+ ' | Rating: ' + ratingName
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 
